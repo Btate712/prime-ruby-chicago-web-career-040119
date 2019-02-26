@@ -1,5 +1,5 @@
 def prime?(input)
-  if input < 1
+  if input < 2
     return false
   end
   for attempt in 2..(input / 2)
